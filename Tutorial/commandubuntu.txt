@@ -1,0 +1,18 @@
+Command Ubuntu
+
+Pindah semua directory ke path lain
+
+Contoh :
+sudo mv  ismail/ /home/ismailca/
+mv  (folder asal) ke (folder yang hendak dipindahkan) 
+
+Create link ke folder lain (Symbolic link)
+- biasanya guna untuk create folder dalam var/www link ke folder user 
+  dalam /home directory 
+
+Contoh:
+cd var/www
+ls (untuk check nama supaya x duplicate)
+sudo ln -s /home/ismailca/ ismail
+ln -s (folder yang nak dilink) dan (nama link)
+* Mesti duduk dalam directory yang hendak diwujudkan link.
