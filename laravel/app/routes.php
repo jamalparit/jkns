@@ -15,3 +15,15 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('users', function()
+{
+    return 'Users!';
+});
+
+Route::get('/abouts', function()
+{
+    return 	'<h1>Asalamualaikum Users!</h1>'
+    		.'Selamat Datang ke Sistem Pengurusan IT <br>'
+    		.'Unit Teknologi Maklumat, Jabatan Kesihatan Negeri Selangor.';
+});
